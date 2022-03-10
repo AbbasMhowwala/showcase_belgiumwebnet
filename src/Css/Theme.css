@@ -1,0 +1,529 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  font-family: "Playfair Display", serif;
+}
+.bw-hero_slider {
+  background-image: url(https://showcase.belgiumwebnet.com/webapi/assets/images/home/frontslider/banner.png);
+}
+.bw-hero_img button,
+.bw-hero_img h1,
+.bw-hero_img p {
+  color: #000;
+}
+.bw-hero_img button {
+  /* background-color: var(--main-primary-color) !important; */
+  color: #fff !important;
+  border: 2px solid var(--main-primary-color) !important;
+}
+.bw-hero_img button:active,
+.bw-hero_img button:focus,
+.bw-hero_img button:hover {
+  background-color: #000 !important;
+  color: #fff !important;
+  border: 2px solid #000 !important;
+}
+.bw-hero_slider {
+  height: 750px;
+  width: 100%;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bw-hero_img h1 {
+  font-size: 50px;
+  text-transform: uppercase;
+  margin: 0;
+  letter-spacing: 3px;
+}
+.bw-hero_img {
+  width: 40%;
+  right: 100px;
+  padding-top: 10%;
+}
+.bw-hero_img p {
+  font-size: 20px;
+  font-weight: 300;
+  padding: 30px 0 33px;
+  letter-spacing: 0;
+  margin: 0;
+}
+.bw-hero_img button,
+.bw-hero_img p {
+  text-transform: uppercase;
+}
+.bw-hero_img button {
+  font-size: 14px;
+  border-radius: 0;
+  padding: 7px 40px;
+  font-weight: 400;
+  margin: 0;
+}
+.bw-hero_img {
+  position: absolute;
+  width: 100%;
+  text-align: left;
+  right: 0;
+  left: 0;
+}
+.bw-hero_img button:active,
+.bw-hero_img button:focus,
+.bw-hero_img button:hover {
+  outline: none;
+  box-shadow: none !important;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .bw-hero_slider {
+    height: 240px;
+    width: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bw-hero_img {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    right: 0;
+    left: 0;
+    padding-top: 10%;
+  }
+  .bw-hero_img h1 {
+    font-size: 26px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1440px) {
+  .bw-hero_slider {
+    height: 450px;
+    width: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+}
+@media (min-width: 769px) and (max-width: 1200px) {
+  .bw-hero_slider {
+    height: 375px;
+    width: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .bw-hero_slider:after {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.48);
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .bw-hero_slider {
+    height: 280px;
+    background-size: cover;
+    background-position: 50%;
+  }
+  .bw-hero_img h1 {
+    color: #fff;
+    font-size: 35px;
+    letter-spacing: 3px;
+  }
+  .bw-hero_img button {
+    font-size: 12px;
+    padding: 10px 30px;
+    border: 2px solid #fff;
+    color: #fff;
+  }
+  .bw-hero_img {
+    padding-top: 8%;
+  }
+  .bw-hero_img p {
+    color: #fff;
+    padding: 10px 0 12px;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .bw-hero_slider:after {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.48);
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .bw-hero_slider {
+    height: 275px;
+    background-size: cover;
+  }
+  .bw-hero_img h1 {
+    color: #fff;
+    font-size: 30px;
+    letter-spacing: 3px;
+  }
+  .bw-hero_img button {
+    font-size: 12px;
+    padding: 10px 30px;
+    border: 2px solid #fff;
+    color: #fff;
+  }
+  .bw-hero_img {
+    padding-top: 14%;
+  }
+  .bw-hero_img p {
+    color: #fff;
+    font-size: 16px;
+    padding: 20px 0;
+  }
+}
+@media (min-width: 992px) and (max-width: 1024px) {
+  .bw-hero_slider {
+    height: 340px;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .bw-hero_slider {
+    height: 340px !important;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1366px) {
+  .bw-hero_slider {
+    height: 500px;
+  }
+  .bw-hero_img h1 {
+    font-size: 40px;
+  }
+  .bw-hero_img p {
+    font-size: 14px;
+    padding: 20px 0 23px;
+  }
+  .bw-hero_img button {
+    font-size: 12px;
+    padding: 4px 10px;
+  }
+}
+@media (min-width: 1367px) and (max-width: 1439px) {
+  .bw-hero_slider {
+    height: 500px;
+  }
+}
+@media (min-width: 1440px) and (max-width: 1679px) {
+  .bw-hero_slider {
+    height: 500px;
+  }
+}
+@media (min-width: 1680px) and (max-width: 1800px) {
+  .bw-hero_slider {
+    height: 500px;
+  }
+}
+
+.diamond-image {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  display: block;
+  cursor: pointer;
+}
+.bw-ringstyle-content {
+  width: 94% !important;
+  background-color: #f7f7f7;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px -10px rgba(33, 35, 38, 0.1);
+  display: inline-block;
+  text-align: center;
+}
+.bw-ringstyle-content h2 {
+  margin: 0;
+  cursor: pointer;
+  font-size: 32px;
+  line-height: 1.2;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .bw-ringstyle-content h2 {
+    font-size: 20px;
+  }
+  .diamond-image {
+    width: 150px;
+    height: 150px;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .bw-ringstyle-content h2 {
+    font-size: 20px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1024px) {
+  .bw-ringstyle-content h2 {
+    margin: 0;
+    font-size: 22px;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1366px) {
+  .diamond-image {
+    width: 150px;
+    height: 150px;
+  }
+  .bw-ringstyle-content h2 {
+    font-size: 16px;
+  }
+}
+.bw-custom_home_container {
+  max-width: 1750px;
+}
+.bw-ringbuilder_home {
+  background-color: #f7f7f7;
+  margin: 1rem 0 0;
+  padding: 2rem 0 4rem;
+}
+.bw-diamonds_ring_content h2,
+.bw-ringbuilder_top_head h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 40px;
+}
+.bw-diamonds_ring_content h2 {
+  margin-bottom: 20px;
+  font-family: serif !important;
+}
+.bw-ringbuilder_top_head p {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+}
+.bw-diamonds_ring_content p {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 30px;
+}
+.bw-diamonds_ring {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-clip: border-box;
+}
+.bw-diamonds_ring_content img {
+  width: 170px;
+  height: 170px;
+  margin: 0 auto 20px;
+}
+.bw-ringbuilder_button,
+.bw-ringbuilder_button:active,
+.bw-ringbuilder_button:focus,
+.bw-ringbuilder_button:hover {
+  background-color: #000 !important;
+  border-color: #000 !important;
+  border-radius: 0 !important;
+  text-transform: uppercase !important;
+  padding: 10px 15px !important;
+  font-family: inter, sans-serif !important;
+  font-size: 13px !important;
+  outline: none !important;
+  box-shadow: none !important;
+  letter-spacing: 0.125rem !important;
+  color: #fff !important;
+}
+.bw-diamonds_ring_final img {
+  width: 70%;
+  margin: 0 auto;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.bw-diamonds_ring_final {
+  background-color: #fff;
+  margin: 0 auto;
+  display: block;
+  border-radius: 50%;
+  width: 500px;
+  height: 500px;
+  position: relative;
+}
+.bw-diamonds_ring_add_content.text-center h3 {
+  font-size: 50px;
+  font-weight: 600;
+  margin-top: 70px;
+}
+.bw-diamonds_ring_equal h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  margin-top: 0;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .bw-diamonds_ring_equal {
+    display: none !important;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1440px) {
+  .bw-diamonds_ring_equal h3 {
+    margin-top: 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .bw-diamonds_ring_final {
+    width: 320px;
+    height: 320px;
+  }
+  .bw-diamonds_ring_content p,
+  .bw-ringbuilder_top_head h2 {
+    font-size: 28px;
+  }
+  .bw-ringbuilder_top_head p {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .bw-diamonds_ring_equal {
+    display: none !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .bw-diamonds_ring_final {
+    margin: 60px auto 0;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .bw-ringbuilder_top_head h2 {
+    font-size: 27px;
+    font-weight: 400;
+  }
+  .bw-ringbuilder_top_head p {
+    font-size: 22px;
+    margin: 0;
+  }
+  .bw-ringbuilder_top_head.mb-5 {
+    margin-bottom: 20px !important;
+  }
+  .bw-diamonds_ring_content h2 {
+    font-size: 30px;
+  }
+  .bw-diamonds_ring_content p {
+    font-size: 25px;
+  }
+  .bw-diamonds_ring_add_content.text-center {
+    display: none;
+  }
+  .bw-diamonds_ring_content.text-center {
+    margin-bottom: 35px;
+  }
+  .bw-diamonds_ring_final {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+  }
+  .bw-diamonds_ring_final img {
+    width: 100%;
+    position: unset;
+    transform: unset;
+  }
+}
+@media (min-width: 992px) and (max-width: 1024px) {
+  .bw-ringbuilder_home {
+    padding: 2rem 0 3rem;
+  }
+  .bw-ringbuilder_top_head h2 {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  .bw-ringbuilder_top_head p {
+    font-size: 30px;
+    font-weight: 400;
+  }
+  .bw-diamonds_ring_content h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .bw-diamonds_ring_content p {
+    font-size: 19px;
+    line-height: 20px;
+  }
+  .bw-diamonds_ring_content img {
+    width: 120px;
+    height: 120px;
+  }
+  .bw-diamonds_ring_final {
+    height: 300px;
+    width: 300px;
+    margin: -10px auto 0;
+  }
+  .bw-diamonds_ring
+    .w-100.align-items-center.justify-content-center.mt-5.mr-0.ml-0.row {
+    margin: 0 !important;
+  }
+  .bw-diamonds_ring_add_content.text-center h3 {
+    margin-top: 35px;
+  }
+  .bw-diamonds_ring_equal h3 {
+    transform: translate(-50%, -50%);
+    margin-top: 0;
+  }
+  .bw-ringbuilder_button,
+  .bw-ringbuilder_button:active,
+  .bw-ringbuilder_button:focus,
+  .bw-ringbuilder_button:hover {
+    padding: 10px !important;
+    font-size: 11px !important;
+    letter-spacing: 0 !important;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1366px) {
+  .bw-diamonds_ring_final {
+    margin: 20px auto;
+    width: 350px;
+    height: 350px;
+  }
+  .bw-ringbuilder_top_head h2 {
+    letter-spacing: normal;
+    text-transform: uppercase;
+    margin: 0;
+    font-weight: 700;
+    font-size: 30px;
+  }
+  .bw-ringbuilder_top_head p {
+    font-size: 24px;
+    margin: 0;
+  }
+  .bw-ringbuilder_top_head.mb-5 {
+    margin-bottom: 20px !important;
+  }
+  .bw-diamonds_ring_content h2 {
+    font-size: 25px;
+  }
+  .bw-diamonds_ring_content p {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .bw-diamonds_ring_content img {
+    width: 120px;
+    height: 120px;
+  }
+  .bw-ringbuilder_button,
+  .bw-ringbuilder_button:active,
+  .bw-ringbuilder_button:focus,
+  .bw-ringbuilder_button:hover {
+    padding: 5px 20px !important;
+    font-size: 12px !important;
+    letter-spacing: 0 !important;
+  }
+  .bw-ringbuilder_home {
+    padding: 2rem 0;
+  }
+}
+.bw-ringbuilder_home button:hover
+{
+    background: #000;
+    color: #fff;
+
+}
+.bw-ringbuilder_home button {
+    background: #000;
+    color: #fff;
+    border-radius: 0;
+}
