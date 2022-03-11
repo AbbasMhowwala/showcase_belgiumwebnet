@@ -8,7 +8,7 @@ const DiamondSlider = () => {
   var settings = {
     dots: false,
     infinite: true,
-    speed: 1000,
+    speed: 100,
     slidesToShow: 4,
     slidesToScroll: 1,
   };
